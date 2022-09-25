@@ -35,7 +35,7 @@ Copy `.env.example` to `.env` and supply the following environment variable.
 ## Step 5: Running
 <br/>
 
-* In your terminal run `./init-start.sh`
+* In your terminal run `./start.sh`
 * Then wait for a few seconds to boot up
 * Try visit in the browser using IP https://<`IP Address`>
 
