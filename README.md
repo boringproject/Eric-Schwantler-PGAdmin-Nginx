@@ -3,12 +3,12 @@
 # Getting Started
 This README is a step by step setup guide for PGAdmin + Nginx. Applicable only for Ubuntu/Debian OS.
 
-## Step 1: Supply Credentials
-* Clone repository `./install-docker.sh`
+## Step 1: Clone repository
+* Clone repository <br /> **git clone https://github.com/boringproject/Eric-Schwantler-PGAdmin-Nginx.git `<folder>`**
 
 <br/>
 
-## Step 1: Supply Credentials
+## Step 2: Supply Credentials
 <br/>
 
 Copy `.env.example` to `.env` and supply the following environment variable.
@@ -18,21 +18,21 @@ Copy `.env.example` to `.env` and supply the following environment variable.
 
 <br/>
 
-## Step 2: Docker Installation
+## Step 3: Docker Installation
 <br/>
 
 * In your terminal run `./install-docker.sh`
 * Follow instructions in the terminal.
 <br/>
 
-## Step 3: Initialize Certificate
+## Step 4: Initialize Certificate
 <br/>
 
 * In your terminal run `./init-certificate.sh`
 * Supply details in the terminal.
 <br/>
 
-## Step 4: Running
+## Step 5: Running
 <br/>
 
 * In your terminal run `./init-start.sh`
