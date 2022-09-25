@@ -5,6 +5,7 @@ This README is a step by step setup guide for PGAdmin + Nginx. Applicable only f
 
 ## Step 1: Clone repository
 * Clone repository <br /> **git clone https://github.com/boringproject/Eric-Schwantler-PGAdmin-Nginx.git `<folder>`**
+* cd `<folder>`
 
 <br/>
 
@@ -58,9 +59,7 @@ Copy `.env.example` to `.env` and supply the following environment variable.
 
 # Notes/Reminder
 
-Due to nature of IP address host you will notice something like this
-
-because the certificate issued is self-signed it cater medium security that is usually used for internal communication and test environment . See comment thread here `https://www.digitalocean.com/community/questions/ssl-for-ip-address`. Alternative solution is to host the site using domain name.
+Due to nature of IP address host you will notice something like certificate not secure because the certificate issued is self-signed it cater medium security that is usually used for internal communication and test environment . See comment thread here `https://www.digitalocean.com/community/questions/ssl-for-ip-address`. Alternative solution is to host the site using domain name.
 <br />
 
 SSL Certificate References:
