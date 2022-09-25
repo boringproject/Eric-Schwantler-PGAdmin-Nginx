@@ -59,6 +59,13 @@ Copy `.env.example` to `.env` and supply the following environment variable.
 
 # Notes/Reminder
 
+In order to run these scripts, you must be inside of the folder of cloned repository. 
+
+<br />
+<br />
+
+# Additional Notes
+
 Due to nature of IP address host you will notice something like certificate not secure because the certificate issued is self-signed it cater medium security that is usually used for internal communication and test environment . See comment thread here `https://www.digitalocean.com/community/questions/ssl-for-ip-address`. Alternative solution is to host the site using domain name.
 <br />
 
